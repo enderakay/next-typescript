@@ -11,6 +11,9 @@ const AboutPage : NextPage = () => {
         <NextLink href="/" passHref>
           <Link>Go back home</Link>
         </NextLink>
+        <NextLink href="/about/me" passHref>
+          <Link>Go to me</Link>
+        </NextLink>
       </Flex>
     );
 }
